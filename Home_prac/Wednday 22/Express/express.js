@@ -6,5 +6,5 @@ app.get('/', (req, res) =>{
     res.send("welcome")
 })
 app.listen(port,()=>{
-    console.log(`server hosting htp//localhost:${port}`)
+    console.log(`server hosting http://localhost:${port}`)
 })
